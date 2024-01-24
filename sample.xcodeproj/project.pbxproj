@@ -23,6 +23,7 @@
 		96DF2F222B5E365C00DBFA4E /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF2F212B5E365C00DBFA4E /* tabView.swift */; };
 		96DF2F242B5E372700DBFA4E /* news.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF2F232B5E372700DBFA4E /* news.swift */; };
 		96DF2F282B5E625C00DBFA4E /* dueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF2F272B5E625C00DBFA4E /* dueDate.swift */; };
+		99F2B3692B6122FC00490F99 /* LoginScrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2B3682B6122FC00490F99 /* LoginScrenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		96DF2F212B5E365C00DBFA4E /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
 		96DF2F232B5E372700DBFA4E /* news.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = news.swift; sourceTree = "<group>"; };
 		96DF2F272B5E625C00DBFA4E /* dueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dueDate.swift; sourceTree = "<group>"; };
+		99F2B3682B6122FC00490F99 /* LoginScrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScrenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				96DF2F212B5E365C00DBFA4E /* tabView.swift */,
 				96DF2F232B5E372700DBFA4E /* news.swift */,
 				96DF2F272B5E625C00DBFA4E /* dueDate.swift */,
+				99F2B3682B6122FC00490F99 /* LoginScrenView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				96DF2F192B5E2F0C00DBFA4E /* eachRow.swift in Sources */,
 				96DF2F1B2B5E2F7A00DBFA4E /* model.swift in Sources */,
 				8EC7D7562B607AF9003D8D53 /* LoginSignUpView.swift in Sources */,
+				99F2B3692B6122FC00490F99 /* LoginScrenView.swift in Sources */,
 				8EC7D7582B6080CF003D8D53 /* UserCredentialsVM.swift in Sources */,
 				96DF2F282B5E625C00DBFA4E /* dueDate.swift in Sources */,
 				96DF2F152B5E2C1D00DBFA4E /* profile.swift in Sources */,
