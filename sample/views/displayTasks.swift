@@ -13,6 +13,7 @@ struct displayTasks: View {
     @StateObject var vm = CoreDataViewModel()
     var body: some View {
         NavigationView {
+            
             VStack(alignment: .leading){
                 Text("Not Completed")
                     .font(.title2)
