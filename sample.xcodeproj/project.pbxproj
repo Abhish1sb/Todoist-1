@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1393D02B60F3E10068617A /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1393CF2B60F3E10068617A /* NewsModel.swift */; };
+		6B1393D22B60F4220068617A /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1393D12B60F4220068617A /* NewsViewModel.swift */; };
+		6B1393D42B60F46D0068617A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1393D32B60F46D0068617A /* WebView.swift */; };
+		6B1393D62B60F5810068617A /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1393D52B60F5810068617A /* NewsCardView.swift */; };
+		6B1393D82B60F5D80068617A /* NewsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1393D72B60F5D80068617A /* NewsContentView.swift */; };
 		8EC7D7502B606F2E003D8D53 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7D74E2B606F2E003D8D53 /* User.xcdatamodeld */; };
 		8EC7D7562B607AF9003D8D53 /* LoginSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7D7552B607AF9003D8D53 /* LoginSignUpView.swift */; };
 		8EC7D7582B6080CF003D8D53 /* UserCredentialsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7D7572B6080CF003D8D53 /* UserCredentialsVM.swift */; };
@@ -26,6 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1393CF2B60F3E10068617A /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		6B1393D12B60F4220068617A /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		6B1393D32B60F46D0068617A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		6B1393D52B60F5810068617A /* NewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardView.swift; sourceTree = "<group>"; };
+		6B1393D72B60F5D80068617A /* NewsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsContentView.swift; sourceTree = "<group>"; };
 		8EC7D74F2B606F2E003D8D53 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
 		8EC7D7552B607AF9003D8D53 /* LoginSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpView.swift; sourceTree = "<group>"; };
 		8EC7D7572B6080CF003D8D53 /* UserCredentialsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentialsVM.swift; sourceTree = "<group>"; };
@@ -106,6 +116,9 @@
 				96DF2F212B5E365C00DBFA4E /* tabView.swift */,
 				96DF2F232B5E372700DBFA4E /* news.swift */,
 				96DF2F272B5E625C00DBFA4E /* dueDate.swift */,
+				6B1393D32B60F46D0068617A /* WebView.swift */,
+				6B1393D52B60F5810068617A /* NewsCardView.swift */,
+				6B1393D72B60F5D80068617A /* NewsContentView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -115,6 +128,8 @@
 			children = (
 				96DF2F1A2B5E2F7A00DBFA4E /* model.swift */,
 				8EC7D7572B6080CF003D8D53 /* UserCredentialsVM.swift */,
+				6B1393CF2B60F3E10068617A /* NewsModel.swift */,
+				6B1393D12B60F4220068617A /* NewsViewModel.swift */,
 			);
 			path = modelviews;
 			sourceTree = "<group>";
@@ -196,12 +211,17 @@
 				96DF2F1E2B5E2FDB00DBFA4E /* Task.xcdatamodeld in Sources */,
 				96DF2F192B5E2F0C00DBFA4E /* eachRow.swift in Sources */,
 				96DF2F1B2B5E2F7A00DBFA4E /* model.swift in Sources */,
+				6B1393D22B60F4220068617A /* NewsViewModel.swift in Sources */,
 				8EC7D7562B607AF9003D8D53 /* LoginSignUpView.swift in Sources */,
+				6B1393D62B60F5810068617A /* NewsCardView.swift in Sources */,
 				8EC7D7582B6080CF003D8D53 /* UserCredentialsVM.swift in Sources */,
+				6B1393D02B60F3E10068617A /* NewsModel.swift in Sources */,
+				6B1393D42B60F46D0068617A /* WebView.swift in Sources */,
 				96DF2F282B5E625C00DBFA4E /* dueDate.swift in Sources */,
 				96DF2F152B5E2C1D00DBFA4E /* profile.swift in Sources */,
 				96DF2F172B5E2EFB00DBFA4E /* displayTasks.swift in Sources */,
 				96DF2F132B5E1AB600DBFA4E /* addTask.swift in Sources */,
+				6B1393D82B60F5D80068617A /* NewsContentView.swift in Sources */,
 				96DF2EF62B5E109800DBFA4E /* sampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,7 @@ struct tabView: View {
                     Image(systemName: "list.bullet.rectangle")
                     
                 }
-            news()
+            NewsContentView(news: .init(title: "", description: "", imageUrl: "", url: ""))
                 .tabItem {
                     Image(systemName: "newspaper")
                     
